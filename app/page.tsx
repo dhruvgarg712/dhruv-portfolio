@@ -193,8 +193,8 @@ export default function Home() {
           </motion.div>
         </motion.div>
 
-        <div className="relative hidden justify-center lg:flex">
-          <div className="relative h-[420px] w-[420px]">
+        <div className="relative mt-10 flex justify-center lg:mt-0">
+          <div className="relative h-[300px] w-[300px] sm:h-[340px] sm:w-[340px] lg:h-[420px] lg:w-[420px]">
             <div className="absolute inset-12 rounded-full bg-blue-500/20 blur-[80px]" />
 
             <motion.div
@@ -209,7 +209,7 @@ export default function Home() {
               initial={{ opacity: 0, scale: 0.92, y: 30 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.35 }}
-              className="absolute left-1/2 top-1/2 h-[280px] w-[280px] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full border border-white/15 bg-white/5 shadow-[0_0_80px_rgba(59,130,246,0.22)] backdrop-blur"
+              className="absolute left-1/2 top-1/2 h-[210px] w-[210px] sm:h-[240px] sm:w-[240px] lg:h-[280px] lg:w-[280px] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full border border-white/15 bg-white/5 shadow-[0_0_80px_rgba(59,130,246,0.22)] backdrop-blur"
             >
               <Image
                 src="/profile.jpg"
